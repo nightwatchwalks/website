@@ -1,0 +1,110 @@
+{
+	"basics": [
+		{
+			"question": "WHAT IS \"NIGHT WATCH\"?",
+			"answer": "Night Watch is an art collection of 455 animated impossible animal trios strolling around in a mysterious void. Each animation has 15 frames, and each frame of each animation is an NFT. By collecting the same frames of an animation in the same wallet, you form an animation of those frames. Your goal is to complete the animation by collecting all 15 frames."
+		},
+		{
+			"question": "WHAT IS A TRIO/GIF/ANIMATION?",
+			"answer": "A trio is made up of three animals, and each trio has its own unique animation/gif. These trios form the foundation of Night Watch."
+		},
+		{
+			"question": "WHAT IS A FRAME?",
+			"answer": "Each frame of the 455 trio animations is an NFT that can be traded and merged. By collecting the same frames of an animation into a single wallet, you can form an animation from those frames."
+		},
+		{
+			"question": "HOW MUCH IS THE TOTAL SUPPLY?",
+			"answer": "Night Watch has an initial supply of 6,825 tokens. However, the on-chain game of Night Watch makes the collection deflationary, meaning the supply will decrease over time. In theory, it can drop to as few as 455 if all the frames are merged."
+		},
+		{
+			"question": "HOW MANY UNIQUE TRIO ANIMATIONS ARE THERE?",
+			"answer": "Night Watch has 455 unique animal trio animations. As the frames are merged, more animations are generatively created to accurately depict the frames of a token."
+		},
+		{
+			"question": "HOW DID YOU DETERMINE THE TOTAL SUPPLY?",
+			"answer": "Night Watch features 455 unique animal trio animations. Each animation consists of 15 frames. As each frame is represented by an NFT, this totals 455x15=6825 tokens."
+		},
+		{
+			"question": "WHAT IS MERGE?",
+			"answer": "The merge mechanism allows the distributed frames of Night Watch to reconnect when they are in the same wallet. This merge operates seamlessly, thanks to our smart contract; you don't need to do anything other than collect frames of the same animal trio in one wallet."
+		},
+		{
+			"question": "HOW DOES THE MERGE HAPPEN?",
+			"answer": "When you collect the frames of the same animal trio in the same wallet, the token with the lower id's frames gets updated with the token with the higher id's frames. Afterward, the token with the higher id will be burned to complete the merge. All this occurs automatically through the smart contract and the metadata servers."
+		},
+		{
+			"question": "CAN I TEST THE MERGE?",
+			"answer": "Yes you can! You can [simulate the merge above](#simulate) to see how it works."
+		},
+		{
+			"question": "HOW CAN I BUY A NIGHT WATCH?",
+			"answer": "You can buy Night Watch from our [sales website](https://buy.impossibletrios.art). There are two steps to buy Night Watch. First, purchase and reserve your tokens. Then, claim your tokens to receive them in your wallet. The two steps ensure the randomness of the process."
+		},
+		{
+			"question": "WHAT IS THE SALE PRICE OF NIGHT WATCH?",
+			"answer": "Sale price of Night Watch is 0.03 ETH per token."
+		},
+		{
+			"question": "HOW CAN I FIND TOKENS THAT I CAN MERGE WITH MINE?",
+			"answer": "You can use OpenSea's or other marketplace's search filters to find animation frames similar to yours. For example, if you have trio id 223 (you can find this number on your token's page in the marketplace), search for tokens with trio 223 to see which other tokens you can merge with yours."
+		},
+		{
+			"question": "I DIDN'T RECEIVE MY TOKENS AFTER PURCHASE. WHAT CAN I DO?",
+			"answer": "You probably forgot to claim your tokens. Use our [sales website](https://buy.impossibletrios.art) to claim your tokens and receive them in your wallet."
+		},
+		{
+			"question": "WHAT ARE THE ANIMALS?",
+			"answer": "There are 15 unique animals in Night Watch:\n- Caretta\n- Elephant\n- Tortoise\n- Lemur\n- Seahorse\n- Seal\n- Giraffe\n- Lion\n- Whale\n- Unicorn\n- Penguin\n- Panda\n- Dolphin\n- Rhino\n- Gorilla"
+		},
+		{
+			"question": "HOW TO DETERMINE RARITY?",
+			"answer": "Rarity in Night Watch is dynamic. The simplest metric is the frame count of a token. However, there are several psychological layers to consider. For instance, if someone aims to collect every frame of an animation, a token with just one frame could be highly valuable. Ultimately, the community will determine the rarity."
+		},
+		{
+			"question": "WHAT ARE YOUR OFFICIAL SOCIAL MEDIA ACCOUNTS/LINKS?",
+			"answer": "You can find our official links below. Please do not trust any other social media account or links other than these:\n- Twitter: [https://twitter.com/NightWatchWalks](https://twitter.com/NightWatchWalks)\n- Discord: [https://discord.gg/nightwatch](https://discord.gg/nightwatch)\n- OpenSea: [https://opensea.io/collection/nightwatchwalks](https://opensea.io/collection/nightwatchwalks)\n- GitHub: [https://github.com/NightWatchWalks](https://github.com/NightWatchWalks)\n- Mirror (Kaybid): [https://mirror.xyz/kaybid.eth](https://mirror.xyz/kaybid.eth)\n- Mirror (Yigit Duman): [https://mirror.xyz/yigitduman.eth](https://mirror.xyz/yigitduman.eth)\n- Instagram (Kaybid): [https://instagram.com/Kaybid](https://instagram.com/Kaybid)\n- Sales Website: [https://buy.impossibletrios.art](https://buy.impossibletrios.art)\n- Contract Address: TO BE ANNOUNCED\n- ENS:\n\nimpossibletrios.eth, nightwatchwalks.eth\n- Domains:\n\nimpossibletrios.art, impossibletrios.com, impossibletrios.xyz, nightwatchwalks.xyz"
+		}
+	],
+	"details": [
+		{
+			"question": "WHAT BLOCKCHAIN IS NIGHT WATCH ON?",
+			"answer": "Night Watch is on the Ethereum blockchain. Also, we chose ERC721 token standard for our collection."
+		},
+		{
+			"question": "WHY ARE THERE 2 STEPS TO PURCHASE NIGHT WATCH?",
+			"answer": "The two-step process is designed to ensure the randomness of the transaction. First, you purchase and reserve your tokens. We then wait for 1 block to be mined. After that, we use the blockhash of that block as a randomness seed to determine the tokens you receive. Finally, you claim your reserved tokens to have them transferred to your wallet. This ensures a transparent and random distribution of the tokens."
+		},
+		{
+			"question": "WHY ARE NIGHT WATCH TOKENS BOUGHT INSTEAD OF MINTED?",
+			"answer": "Night Watch has a different mechanism for distributing tokens. All tokens are minted at launch and sent to the Night Watch vault. They are then distributed via the Vendor smart contract. This is because Night Watch tokens need to be minted and fully visible to start the game."
+		},
+		{
+			"question": "IS NIGHT WATCH OPEN SOURCE?",
+			"answer": "Yes, Night Watch is entirely open source. You can check our [GitHub](https://github.com/NightWatchWalks) to find the source codes for our smart contract, website, off-chain tools, and metadata server. However, the artworks, animations and visuals are not public domain. If you have an idea, you can reach out to [Kaybid](https://twitter.com/kaybidsteps) and work it out!"
+		},
+		{
+			"question": "CAN I LEARN MORE ABOUT THE TECHNICAL DETAILS?",
+			"answer": "Of course! You can read more about how Night Watch works in our [Technical Breakdown article](https://mirror.xyz/yigitduman.eth/Mc3w2tC2nQD9mGm4VyBL6lRuKzoyiwfwZTpx9gy_R_k)."
+		},
+		{
+			"question": "HOW DO YOU ENSURE RANDOMNESS?",
+			"answer": "There are many layers of randomness in Night Watch. First, we assign a random unique id to each trio using our [mapping tool](https://github.com/nightwatchwalks/offchain-tools/tree/main/token-data-merge/random-gif-id-mapping). We use the blockhash of the Night Watch contract deployment block as the seed for randomness. Then, we randomly assign a trio id and a frame to each token. This randomness is ensured by the same seed. The randomness of the purchase events are ensured by the seed of the block following the purchase block. In this manner, Night Watch remains completely transparent at every level of distribution."
+		},
+		{
+			"question": "DID YOU MAKE ANY OPTIMIZATION TO REDUCE ETHEREUM GAS FEES?",
+			"answer": "Yes, we did. We employed a bitmapping method, which you can learn about in our [Technical Breakdown article](https://mirror.xyz/yigitduman.eth/Mc3w2tC2nQD9mGm4VyBL6lRuKzoyiwfwZTpx9gy_R_k). This method allows us to reduce the gas usage of the merge function by more than 50%. However, since Night Watch is a unique project with special functions like merge, the transfer gas fee is higher than in regular NFT projects. We did our best to keep the gas fees low, but unfortunately, creativity comes with a cost on Ethereum. The gas fees are slightly higher than regular projects."
+		},
+		{
+			"question": "CAN I BUILD ON NIGHT WATCH?",
+			"answer": "Yes, and it's encouraged! Our smart contracts and the game are public domain; you can build on them as much as you want! However, the artworks, animations and visuals are not public domain, but if you have an idea, you can reach out to [Kaybid](https://twitter.com/kaybidsteps) and work it out!"
+		},
+		{
+			"question": "ANY PLANS FOR FURTHER DECENTRALIZATION?",
+			"answer": "Night Watch has been designed with decentralization in mind and can be considered sufficiently decentralized. However, due to the current limitations of the Ethereum blockchain, we can only offer a partially decentralized experience. Our metadata servers are currently hosted on the cloud. Nevertheless, we have plans for the future to transition to a fully decentralized structure. We constructed our smart contract with this future shift in mind, ensuring that the metadata server is upgradeable. We'll initiate the switch once Layer 2 solutions become more feasible."
+		},
+		{
+			"question": "ANY TIPS TO KEEP TRANSFER GAS LOW?",
+			"answer": "Since Night Watch uses a more complex transfer function, some users may experience more gas usage than a regular NFT. You don't need to worry about gas usage if you have less than 13-14 trios in the same wallet. However, if you are holding more than that, you can keep the transfer gas low by keeping different trios in separate wallets."
+		}
+	]
+}

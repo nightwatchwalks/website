@@ -1,0 +1,15 @@
+@supports (-webkit-touch-callout: none) {
+	.selector {
+		background-attachment: scroll;
+		background-size: unset;
+		background-repeat: repeat-y;
+	}
+}
+
+@supports not (-webkit-touch-callout: none) {
+	.selector {
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}

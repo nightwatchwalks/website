@@ -1,0 +1,11 @@
+/* These overrides have been added for React Chrono package. 
+   Since we do not use any clickable features and they do not have
+   any way to remove the pointer, we do it forcefully. */
+
+[class^="TimelinePointWrapper"] {
+	cursor: default !important;
+}
+
+[class^="Shape-sc"] {
+	cursor: default !important;
+}
