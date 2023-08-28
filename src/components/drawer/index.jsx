@@ -18,6 +18,7 @@ import { FaMedium, FaShoppingCart } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import DrawerButton from "./drawer-button";
 import { IoHomeSharp } from "react-icons/io5";
+import { showBuyButton } from "../../config";
 
 export default function DrawerMenu({ btnRef, isOpen, onClose }) {
 	return (
@@ -97,17 +98,18 @@ function Widgets({ onClose }) {
 			>
 				<Icon boxSize={10} as={IoHomeSharp} />
 			</DrawerIcon>
-
-			<DrawerIcon
-				onClick={() => {
-					window.open("https://buy.impossibletrios.art/", "_blank");
-					onClose();
-				}}
-				name={"BUY NOW"}
-				selected={false}
-			>
-				<Icon boxSize={10} as={FaShoppingCart} />
-			</DrawerIcon>
+			{showBuyButton && (
+				<DrawerIcon
+					onClick={() => {
+						window.open("https://buy.impossibletrios.art/", "_blank");
+						onClose();
+					}}
+					name={"BUY NOW"}
+					selected={false}
+				>
+					<Icon boxSize={10} as={FaShoppingCart} />
+				</DrawerIcon>
+			)}
 		</Flex>
 	);
 }

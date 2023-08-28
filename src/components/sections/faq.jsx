@@ -26,8 +26,11 @@ import SectionBackground from "../section-background";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import SectionContainer from "../section-container";
 import CustomDivider from "../custom-divider";
-import { assetsUrl } from "../../config";
-const faqArray = require("../../data/faq.json");
+import { assetsUrl, showBuyButton } from "../../config";
+
+const faqArray = showBuyButton
+	? require("../../data/faq.json")
+	: require("../../data/faq-without-sales.json");
 
 export default function FAQ() {
 	return (

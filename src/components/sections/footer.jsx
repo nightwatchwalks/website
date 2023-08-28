@@ -19,7 +19,7 @@ import {
 import Section from "../section";
 import SectionBackground from "../section-background";
 import SectionContainer from "../section-container";
-import { assetsUrl } from "../../config";
+import { assetsUrl, showBuyButton } from "../../config";
 
 const MotionImage = motion(Image);
 
@@ -146,14 +146,18 @@ export default function Footer() {
 								<Link href={"#crew"}>
 									<Text>CREW</Text>
 								</Link>
-								<Text>-</Text>
-								<Link
-									href={"https://buy.impossibletrios.art"}
-									isExternal
-									color={"nw-yellow"}
-								>
-									<Text>BUY NOW</Text>
-								</Link>
+								{showBuyButton && (
+									<>
+										<Text>-</Text>
+										<Link
+											href={"https://buy.impossibletrios.art"}
+											isExternal
+											color={"nw-yellow"}
+										>
+											<Text>BUY NOW</Text>
+										</Link>
+									</>
+								)}
 							</Flex>
 						</Flex>
 
