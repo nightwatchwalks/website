@@ -37,10 +37,6 @@
 			"answer": "Yes you can! You can [simulate the merge above](#simulate) to see how it works."
 		},
 		{
-			"question": "WHAT IS THE SALE PRICE OF NIGHT WATCH?",
-			"answer": "Sale price of Night Watch is 0.03 ETH per token."
-		},
-		{
 			"question": "HOW CAN I FIND TOKENS THAT I CAN MERGE WITH MINE?",
 			"answer": "You can use OpenSea's or other marketplace's search filters to find animation frames similar to yours. For example, if you have trio id 223 (you can find this number on your token's page in the marketplace), search for tokens with trio 223 to see which other tokens you can merge with yours."
 		},
