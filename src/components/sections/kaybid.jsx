@@ -62,7 +62,7 @@ export default function Kaybid() {
 							mt={5}
 						>
 							<chakra.span color={"nw-yellow"} fontWeight={"700"}>
-								SILENT STEPS,
+								SILENT STEPS
 							</chakra.span>{" "}
 							is the premise project of{" "}
 							<chakra.span color={"nw-yellow"} fontWeight={"700"}>

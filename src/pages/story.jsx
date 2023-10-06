@@ -58,7 +58,7 @@ export default function StoryPage() {
 					</Box>
 					<Text fontWeight={700}>The Message</Text>
 					<Text>
-						Kaybid's work brilliantly highlights the stark contrast between
+						Kaybid's work highlights the stark contrast between
 						bustling city life and the tranquility of nature. Through his art,
 						he not only illuminates the gap between cityscapes and wilderness,
 						but also highlights the paradox of life thriving in nature but

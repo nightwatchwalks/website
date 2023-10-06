@@ -73,7 +73,7 @@ export default function Story() {
 							<chakra.span color={"nw-yellow"}>
 								unlikely animals together.
 							</chakra.span>{" "}
-							The places, times or purposes of these trios are unknown, and{" "}
+							The places, times and purposes of these trios are unknown, and{" "}
 							<chakra.span color={"nw-yellow"}>no clues</chakra.span> are found
 							about them.
 						</Text>
@@ -100,7 +100,7 @@ export default function Story() {
 								</Text>
 								<Text mt={5}>
 									They may take over the world, or perhaps, they may spend their
-									entire lives meaninglessly disappearing without leaving a mere
+									entire lives meaninglessly, and disappear without leaving a mere
 									trace. They can be ambassadors of good, masters of evil, or
 									they can wander pointlessly.
 								</Text>
@@ -123,7 +123,7 @@ export default function Story() {
 							<chakra.span color={"nw-yellow"}>being on the road,</chakra.span>{" "}
 							there is one{" "}
 							<chakra.span color={"nw-yellow"}>thing we know</chakra.span> for
-							sure about them;
+							sure about them:
 						</Text>
 						<Text
 							textAlign={"center"}
@@ -131,7 +131,7 @@ export default function Story() {
 							fontSize={["nw-xs", "nw-md", "nw-md", "nw-lg"]}
 							mt={5}
 						>
-							In all this obscurity, although it seems impossible, they{" "}
+							In all this uncertainty, although it seems impossible, they{" "}
 							<chakra.span color={"nw-yellow"}>are together </chakra.span>
 							and moving in the{" "}
 							<chakra.span color={"nw-yellow"}>same direction!</chakra.span>

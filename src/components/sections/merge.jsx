@@ -181,7 +181,7 @@ export default function Merge() {
 									mt={5}
 								>
 									Below, you will see a representation of the Night Watch
-									tokens, which are combined from several frames, and how the
+									tokens, which are assembled from several frames, and how the
 									merge system works.
 								</Text>
 							</Center>
@@ -209,7 +209,7 @@ export default function Merge() {
 									name={"COLLECT THE FRAMES"}
 									image={assetsUrl + "/images/merge/mergecard1.webp"}
 									description={
-										"Collect the frames of the same gifs/trios in your wallet, and they will automatically form an animation by merging!"
+										"Collect the frames of the same trio animations in your wallet, and they will automatically form a merged animation!"
 									}
 									animDelay={0.5}
 								/>
@@ -242,7 +242,7 @@ export default function Merge() {
 									fontSize={["nw-xs", "nw-sm"]}
 									textAlign={"center"}
 								>
-									You can read more about merge on our{" "}
+									You can read more about the merge mechanism in our{" "}
 									<Link
 										href={
 											"https://mirror.xyz/yigitduman.eth/HpAiWD8vX-mTAoU7jHAWkYK39KP13AzXawwk5RT821k"

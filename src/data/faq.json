@@ -2,7 +2,7 @@
 	"basics": [
 		{
 			"question": "WHAT IS \"NIGHT WATCH\"?",
-			"answer": "Night Watch is an art collection of 455 animated impossible animal trios strolling around in a mysterious void. Each animation has 15 frames, and each frame of each animation is an NFT. By collecting the same frames of an animation in the same wallet, you form an animation of those frames. Your goal is to complete the animation by collecting all 15 frames."
+			"answer": "Night Watch is an art collection of 455 animated impossible animal trios strolling about in a mysterious void. Each animation has 15 frames, and each frame of each animation is an NFT. By collecting the same frames of an animation in the same wallet, you form an animation of those frames. Your goal is to complete the animation by collecting all 15 frames."
 		},
 		{
 			"question": "WHAT IS A TRIO/GIF/ANIMATION?",
@@ -14,7 +14,7 @@
 		},
 		{
 			"question": "HOW MUCH IS THE TOTAL SUPPLY?",
-			"answer": "Night Watch has an initial supply of 6,825 tokens. However, the on-chain game of Night Watch makes the collection deflationary, meaning the supply will decrease over time. In theory, it can drop to as few as 455 if all the frames are merged."
+			"answer": "Night Watch has an initial supply of 6,825 tokens. However, the on-chain game of Night Watch makes the collection deflationary, meaning the supply will decrease over time. In theory, the total supply can drop to as few as 455 if all the frames are merged."
 		},
 		{
 			"question": "HOW MANY UNIQUE TRIO ANIMATIONS ARE THERE?",
@@ -26,11 +26,11 @@
 		},
 		{
 			"question": "WHAT IS MERGE?",
-			"answer": "The merge mechanism allows the distributed frames of Night Watch to reconnect when they are in the same wallet. This merge operates seamlessly, thanks to our smart contract; you don't need to do anything other than collect frames of the same animal trio in one wallet."
+			"answer": "The merge mechanism allows the distributed frames of Night Watch to reconnect when they are in the same wallet. This merge operates seamlessly, thanks to our smart contract, you don't need to do anything other than collect frames of the same animal trio in one wallet."
 		},
 		{
 			"question": "HOW DOES THE MERGE HAPPEN?",
-			"answer": "When you collect the frames of the same animal trio in the same wallet, the token with the lower id's frames gets updated with the token with the higher id's frames. Afterward, the token with the higher id will be burned to complete the merge. All this occurs automatically through the smart contract and the metadata servers."
+			"answer": "When you collect the frames of the same animal trio in the same wallet, the token with the lower ID is updated with frames from the token with the higher ID. Afterward, the token with the higher id will be burned to complete the merge. All this occurs automatically through the smart contract and the metadata servers."
 		},
 		{
 			"question": "CAN I TEST THE MERGE?",
@@ -80,7 +80,7 @@
 		},
 		{
 			"question": "IS NIGHT WATCH OPEN SOURCE?",
-			"answer": "Yes, Night Watch is entirely open source. You can check our [GitHub](https://github.com/NightWatchWalks) to find the source codes for our smart contract, website, off-chain tools, and metadata server. However, the artworks, animations and visuals are not public domain. If you have an idea, you can reach out to [Kaybid](https://twitter.com/kaybidsteps) and work it out!"
+			"answer": "Yes, Night Watch is entirely open source. You can check our [GitHub](https://github.com/NightWatchWalks) to find the source codes for our smart contract, website, off-chain tools, and metadata server. However, the artworks, animations and visuals are not public domain. If you have an idea or collaboration in mind, you can reach out to [Kaybid](https://twitter.com/kaybidsteps) to discuss."
 		},
 		{
 			"question": "CAN I LEARN MORE ABOUT THE TECHNICAL DETAILS?",
@@ -96,11 +96,11 @@
 		},
 		{
 			"question": "CAN I BUILD ON NIGHT WATCH?",
-			"answer": "Yes, and it's encouraged! Our smart contracts and the game are public domain; you can build on them as much as you want! However, the artworks, animations and visuals are not public domain, but if you have an idea, you can reach out to [Kaybid](https://twitter.com/kaybidsteps) and work it out!"
+			"answer": "Yes, and it's encouraged! Our smart contracts and the game are open source; you can build on them as much as you want! However, the artworks, animations and visuals are not public domain, but if you have an idea, you can reach out to [Kaybid](https://twitter.com/kaybidsteps) and work it out!"
 		},
 		{
 			"question": "ANY PLANS FOR FURTHER DECENTRALIZATION?",
-			"answer": "Night Watch has been designed with decentralization in mind and can be considered sufficiently decentralized. However, due to the current limitations of the Ethereum blockchain, we can only offer a partially decentralized experience. Our metadata servers are currently hosted on the cloud. Nevertheless, we have plans for the future to transition to a fully decentralized structure. We constructed our smart contract with this future shift in mind, ensuring that the metadata server is upgradeable. We'll initiate the switch once Layer 2 solutions become more feasible."
+			"answer": "Night Watch has been designed with decentralization in mind and can be considered sufficiently decentralized. However, due to the current limitations of the Ethereum blockchain, we can only offer a partially decentralized experience. Our metadata servers are currently hosted on the cloud. Nevertheless, we have plans for the future to transition to a fully decentralized structure. We constructed our smart contract with this future shift in mind, ensuring that the metadata server is upgradeable. We plan to initiate the switch once Layer 2 solutions become more prevalent or practical."
 		},
 		{
 			"question": "ANY TIPS TO KEEP TRANSFER GAS LOW?",

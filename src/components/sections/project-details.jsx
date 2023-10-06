@@ -119,7 +119,7 @@ export default function ProjectDetails() {
 								fontWeight={500}
 							>
 								<chakra.span color={"nw-yellow"} fontWeight={"700"}>
-									NIGHT WATCH,
+									NIGHT WATCH
 								</chakra.span>{" "}
 								is a unique project with distinctive mechanisms, including
 								multiple layers such as the merging of frames on-chain.
@@ -215,7 +215,7 @@ export default function ProjectDetails() {
 								mt={"3rem"}
 								fontWeight={"400"}
 							>
-								You can read more about merge below.
+								You can read more about the merge below.
 							</Text>
 						</motion.div>
 						<motion.div
@@ -288,7 +288,7 @@ function Timeline() {
 						mt={5}
 					>
 						The project features 15 distinct animals. Each animal has an
-						animation made up of 15 handmade collages from the Kaybid's 'Silent
+						animation made up of 15 handmade collages from Kaybid's 'Silent
 						Steps' series. Three of these animals come together to form the
 						'Night Watch'.
 					</Text>
@@ -379,8 +379,8 @@ function Timeline() {
 						fontSize={"nw-sm"}
 						mt={5}
 					>
-						Since each frame is an NFT, 455 unique animations multiplied with 15
-						frames means, there are 6825 unique frames in total.
+						Since each frame is an NFT, 455 unique animations multiplied by 15
+						frames means there are 6825 unique frames in total.
 					</Text>
 					<Text
 						textAlign={"right"}
@@ -389,7 +389,7 @@ function Timeline() {
 						fontSize={"nw-sm"}
 						mt={5}
 					>
-						And this is how we reach to the initial supply of Night Watch.
+						And this is how we reach the initial supply of Night Watch.
 					</Text>
 					<Text
 						textAlign={"right"}
