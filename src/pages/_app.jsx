@@ -123,12 +123,12 @@ function MyApp({ Component, pageProps }) {
 					property="og:description"
 					content="Night Watch is an experimental and unique art collection with an on-chain game."
 				/>
-				<meta property="og:url" content="https://impossibletrios.art" />
+				<meta property="og:url" content="https://nightwatch.art" />
 				<meta property="og:type" content="website" />
 
 				{/* Twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:url" content="https://impossibletrios.art" />
+				<meta name="twitter:url" content="https://nightwatch.art" />
 				<meta name="twitter:title" content="Night Watch - Impossible Trios" />
 				<meta
 					name="twitter:description"
@@ -139,7 +139,7 @@ function MyApp({ Component, pageProps }) {
 					name="twitter:image:src"
 					content="https://i.imgur.com/lLIRfyy.jpg"
 				/>
-				<meta name="twitter:site" content="@nightwatchwalks" />
+				<meta name="twitter:site" content="@nightwatch_art" />
 			</Head>
 			{/* Google Analytics */}
 			<Script

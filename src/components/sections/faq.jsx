@@ -75,7 +75,7 @@ export default function FAQ() {
 									"You can learn more about Night Watch by navigating the tabs of the FAQ section. If you have more question, you can always DM us on "
 								}
 							</chakra.span>
-							<Link isExternal href={"https://twitter.com/nightwatchwalks"}>
+							<Link isExternal href={"https://twitter.com/nightwatch_art"}>
 								<chakra.span fontWeight={600} color={"blue.300"}>
 									{"Twitter"}
 								</chakra.span>

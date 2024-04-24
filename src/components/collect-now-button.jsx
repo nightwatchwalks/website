@@ -19,7 +19,7 @@ export default function CollectNowButton({ ...props }) {
 				cursor: "pointer",
 			}}
 			onClick={() => {
-				window.open("https://buy.impossibletrios.art", "_blank");
+				window.open("https://buy.nightwatch.art", "_blank");
 			}}
 			{...props}
 		>

@@ -101,7 +101,7 @@ function Widgets({ onClose }) {
 			{showBuyButton && (
 				<DrawerIcon
 					onClick={() => {
-						window.open("https://buy.impossibletrios.art/", "_blank");
+						window.open("https://buy.nightwatch.art/", "_blank");
 						onClose();
 					}}
 					name={"BUY NOW"}
@@ -119,7 +119,7 @@ export function Socials({ onClose, withNames, ...props }) {
 		<Flex justify={"center"} gap={[4, 4, 5]} {...props}>
 			<SocialIcon
 				name={"TWITTER"}
-				url={"https://twitter.com/NightWatchWalks"}
+				url={"https://twitter.com/nightwatch_art"}
 				withName={withNames}
 				icon={AiOutlineTwitter}
 			/>

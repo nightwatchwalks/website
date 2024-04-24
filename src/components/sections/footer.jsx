@@ -150,7 +150,7 @@ export default function Footer() {
 									<>
 										<Text>-</Text>
 										<Link
-											href={"https://buy.impossibletrios.art"}
+											href={"https://buy.nightwatch.art"}
 											isExternal
 											color={"nw-yellow"}
 										>
@@ -168,7 +168,7 @@ export default function Footer() {
 							flexDir={"column"}
 						>
 							<Flex gap={6} flexDir={"row"}>
-								<Link href={"https://twitter.com/NightWatchWalks"} isExternal>
+								<Link href={"https://twitter.com/nightwatch_art"} isExternal>
 									<Icon boxSize={["24px", "32px", "36px"]} as={FaTwitter} />
 								</Link>
 								<Link href={"https://discord.gg/nightwatch"} isExternal>
