@@ -1,4 +1,13 @@
-import { Flex, Heading, chakra, Image, Text, Link } from "@chakra-ui/react";
+import {
+	Flex,
+	Heading,
+	chakra,
+	Image,
+	LinkBox,
+	Text,
+	Link,
+	LinkOverlay,
+} from "@chakra-ui/react";
 import DownArrow from "../icons/down-arrow";
 import styles from "../../styles/intro.module.css";
 import { useInView } from "react-intersection-observer";
@@ -6,6 +15,7 @@ import Section from "../section";
 import SectionBackground from "../section-background";
 import SectionContainer from "../section-container";
 import { assetsUrl } from "../../config";
+import { motion } from "framer-motion";
 
 export default function Intro() {
 	const { ref, inView } = useInView({ initialInView: true });
@@ -69,6 +79,69 @@ export default function Intro() {
 						</Text>
 					</Flex>
 
+					<motion.div
+						initial={{ opacity: 0 }}
+						whileInView={{ opacity: [0, 1] }}
+						viewport={{ once: true }}
+						transition={{ ease: "easeOut", duration: 1, delay: 0.75 }}
+					>
+						<LinkBox>
+							<Flex
+								mt={"1rem"}
+								bg={"nw-yellow"}
+								p={2}
+								boxShadow={"0px 0px 15px 3px #000000"}
+								justify={"center"}
+								align={"center"}
+								borderRadius={10}
+								color={"black"}
+								_hover={{
+									bg: "#c79e24",
+									cursor: "pointer",
+								}}
+							>
+								<LinkOverlay href="https://bullrun.nightwatch.art">
+									<Text
+										textShadow={"0 0 black"}
+										fontWeight={700}
+										fontSize={["nw-xs", "nw-sm"]}
+									>
+										{"START THE BULL RUN"}
+									</Text>
+								</LinkOverlay>
+							</Flex>
+						</LinkBox>
+						<Flex
+							mt={"1rem"}
+							bg={"nw-yellow"}
+							p={2}
+							boxShadow={"0px 0px 15px 3px #000000"}
+							justify={"center"}
+							align={"center"}
+							borderRadius={10}
+							color={"black"}
+							_hover={{
+								bg: "#c79e24",
+								cursor: "pointer",
+							}}
+							onClick={() => {
+								const target = document.getElementById("story");
+								target.scrollIntoView({
+									behavior: "smooth",
+									block: "start",
+								});
+							}}
+							px={4}
+						>
+							<Text
+								textShadow={"0 0 black"}
+								fontWeight={700}
+								fontSize={["nw-xs", "nw-sm"]}
+							>
+								{"EXPLORE IMPOSSIBLE TRIOS"}
+							</Text>
+						</Flex>
+					</motion.div>
 					<DownArrow targetArea={"start"} targetSection={"story"} m={"2rem"} />
 				</SectionContainer>
 			</Section>
