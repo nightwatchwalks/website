@@ -83,7 +83,7 @@ export default function Intro() {
 						initial={{ opacity: 0 }}
 						whileInView={{ opacity: [0, 1] }}
 						viewport={{ once: true }}
-						transition={{ ease: "easeOut", duration: 1, delay: 0.75 }}
+						transition={{ ease: "easeOut", duration: 1, delay: 0.25 }}
 					>
 						<LinkBox>
 							<Flex
