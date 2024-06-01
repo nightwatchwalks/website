@@ -79,69 +79,6 @@ export default function Intro() {
 						</Text>
 					</Flex>
 
-					<motion.div
-						initial={{ opacity: 0 }}
-						whileInView={{ opacity: [0, 1] }}
-						viewport={{ once: true }}
-						transition={{ ease: "easeOut", duration: 1, delay: 0.25 }}
-					>
-						<LinkBox>
-							<Flex
-								mt={"1rem"}
-								bg={"nw-yellow"}
-								p={2}
-								boxShadow={"0px 0px 15px 3px #000000"}
-								justify={"center"}
-								align={"center"}
-								borderRadius={10}
-								color={"black"}
-								_hover={{
-									bg: "#c79e24",
-									cursor: "pointer",
-								}}
-							>
-								<LinkOverlay href="https://bullrun.nightwatch.art">
-									<Text
-										textShadow={"0 0 black"}
-										fontWeight={700}
-										fontSize={["nw-xs", "nw-sm"]}
-									>
-										{"START THE BULL RUN"}
-									</Text>
-								</LinkOverlay>
-							</Flex>
-						</LinkBox>
-						<Flex
-							mt={"1rem"}
-							bg={"nw-yellow"}
-							p={2}
-							boxShadow={"0px 0px 15px 3px #000000"}
-							justify={"center"}
-							align={"center"}
-							borderRadius={10}
-							color={"black"}
-							_hover={{
-								bg: "#c79e24",
-								cursor: "pointer",
-							}}
-							onClick={() => {
-								const target = document.getElementById("story");
-								target.scrollIntoView({
-									behavior: "smooth",
-									block: "start",
-								});
-							}}
-							px={4}
-						>
-							<Text
-								textShadow={"0 0 black"}
-								fontWeight={700}
-								fontSize={["nw-xs", "nw-sm"]}
-							>
-								{"EXPLORE IMPOSSIBLE TRIOS"}
-							</Text>
-						</Flex>
-					</motion.div>
 					<DownArrow targetArea={"start"} targetSection={"story"} m={"2rem"} />
 				</SectionContainer>
 			</Section>
