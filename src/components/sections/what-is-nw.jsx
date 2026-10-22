@@ -5,7 +5,7 @@ import Section from "../section";
 import SectionBackground from "../section-background";
 import SectionContainer from "../section-container";
 import CustomDivider from "../custom-divider";
-import CollectNowButton from "components/collect-now-button";
+import CollectNowButton from "../collect-now-button";
 import { assetsUrl } from "../../config";
 
 export default function WhatIsNW() {

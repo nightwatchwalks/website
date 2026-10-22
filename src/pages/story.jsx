@@ -58,13 +58,13 @@ export default function StoryPage() {
 					</Box>
 					<Text fontWeight={700}>The Message</Text>
 					<Text>
-						Kaybid's work highlights the stark contrast between
-						bustling city life and the tranquility of nature. Through his art,
-						he not only illuminates the gap between cityscapes and wilderness,
-						but also highlights the paradox of life thriving in nature but
-						struggling in concrete jungles. These creations are a poignant
-						reminder of our disconnection from the natural world and our natural
-						solitude within it.
+						Kaybid's work highlights the stark contrast between bustling city
+						life and the tranquility of nature. Through his art, he not only
+						illuminates the gap between cityscapes and wilderness, but also
+						highlights the paradox of life thriving in nature but struggling in
+						concrete jungles. These creations are a poignant reminder of our
+						disconnection from the natural world and our natural solitude within
+						it.
 					</Text>
 					<Text>
 						Working predominantly under the cover of night, Kaybid transformed

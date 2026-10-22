@@ -20,10 +20,10 @@ import { useEffect, useState } from "react";
 import { RxShuffle } from "react-icons/rx";
 import SectionContainer from "../section-container";
 import CustomDivider from "../custom-divider";
-import CollectNowButton from "components/collect-now-button";
+import CollectNowButton from "../collect-now-button";
 import { assetsUrl } from "../../config";
 
-const MotionGridItem = motion(GridItem);
+const MotionGridItem = motion.create(GridItem);
 
 export default function Merge() {
 	const emptyImage = assetsUrl + "/images/sections/intro.webp";
@@ -72,7 +72,7 @@ export default function Merge() {
 	const getSelectedFramesSorted = () => {
 		const copyOfSelectedFrames = [...selectedFrames];
 		const sorted = copyOfSelectedFrames.sort(
-			(a, b) => parseInt(a) - parseInt(b)
+			(a, b) => parseInt(a) - parseInt(b),
 		);
 		for (const item of sorted) {
 			if (parseInt(item) < 10) {
@@ -408,7 +408,7 @@ export default function Merge() {
 												toggleSelected={() => {
 													if (selectedFrames.includes(frame)) {
 														setSelectedFrames(
-															selectedFrames.filter((f) => f !== frame)
+															selectedFrames.filter((f) => f !== frame),
 														);
 													} else {
 														setSelectedFrames([...selectedFrames, frame]);

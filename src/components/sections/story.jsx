@@ -100,9 +100,9 @@ export default function Story() {
 								</Text>
 								<Text mt={5}>
 									They may take over the world, or perhaps, they may spend their
-									entire lives meaninglessly, and disappear without leaving a mere
-									trace. They can be ambassadors of good, masters of evil, or
-									they can wander pointlessly.
+									entire lives meaninglessly, and disappear without leaving a
+									mere trace. They can be ambassadors of good, masters of evil,
+									or they can wander pointlessly.
 								</Text>
 							</Box>
 						</Flex>
