@@ -23,7 +23,7 @@ import { motion } from "framer-motion";
 import Section from "../section";
 import DownArrow from "../icons/down-arrow";
 import SectionBackground from "../section-background";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import ReactMarkdown from "react-markdown";
 import SectionContainer from "../section-container";
 import CustomDivider from "../custom-divider";
 import { assetsUrl, showBuyButton } from "../../config";

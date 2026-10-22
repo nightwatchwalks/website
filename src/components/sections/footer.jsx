@@ -21,7 +21,7 @@ import SectionBackground from "../section-background";
 import SectionContainer from "../section-container";
 import { assetsUrl, showBuyButton } from "../../config";
 
-const MotionImage = motion(Image);
+const MotionImage = motion.create(Image);
 
 export default function Footer() {
 	return (
@@ -194,7 +194,10 @@ export default function Footer() {
 									<Icon boxSize={["24px", "32px", "36px"]} as={FaMedium} />
 								</Link>
 								<Link href={"https://instagram.com/Kaybid"} isExternal>
-									<Icon boxSize={["24px", "32px", "36px"]} as={FaInstagram} />{" "}
+									<Icon
+										boxSize={["24px", "32px", "36px"]}
+										as={FaInstagram}
+									/>{" "}
 								</Link>
 							</Flex>
 

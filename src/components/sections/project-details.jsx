@@ -8,10 +8,10 @@ import CustomDivider from "../custom-divider";
 import { Chrono } from "react-chrono";
 import { useIsMounted } from "../../hooks/useIsMounted";
 import { motion } from "framer-motion";
-import CollectNowButton from "components/collect-now-button";
+import CollectNowButton from "../collect-now-button";
 import { assetsUrl } from "../../config";
-const MotionBox = motion(Box);
-const MotionImage = motion(Image);
+const MotionBox = motion.create(Box);
+const MotionImage = motion.create(Image);
 
 const items = [
 	{
@@ -249,10 +249,13 @@ function Timeline() {
 				enableBreakPoint={false}
 				borderLessCards={true}
 				hideControls={true}
+				disableToolbar={true}
+				useReadMore={false}
 				theme={{
 					primary: "white",
 					secondary: "transparent",
 					cardBgColor: "transparent",
+					cardDetailsBackGround: "transparent",
 					titleColor: "black",
 					titleColorActive: "transparent",
 					iconBackgroundColor: "white",

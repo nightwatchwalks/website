@@ -16,7 +16,7 @@ import CustomDivider from "../custom-divider";
 import { motion } from "framer-motion";
 import { assetsUrl } from "../../config";
 
-const MotionFlex = motion(Flex);
+const MotionFlex = motion.create(Flex);
 
 export default function Kaybid() {
 	return (

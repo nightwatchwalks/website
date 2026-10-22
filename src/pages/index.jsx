@@ -47,7 +47,7 @@ function FixedIcons() {
 		});
 	}, []);
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const btnRef = useRef();
+	const btnRef = useRef(null);
 
 	return (
 		<>
